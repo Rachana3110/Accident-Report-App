@@ -102,9 +102,8 @@ const RtoTable = () => {
             <tr>
               <td className={classes.row}>5.</td>
               <td className={classes.row}>
-                Mechanical Condition of the Motor Vehicle
-                <br />
-                damages due to Impact:
+                Mechanical Condition of the Motor <br />
+                Vehicle damages due to Impact:
               </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
