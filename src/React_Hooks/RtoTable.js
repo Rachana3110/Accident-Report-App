@@ -39,7 +39,7 @@ const RtoTable = () => {
           <table className={classes.table}>
             <tr>
               <td className={classes.row}>1.</td>
-              <td className={classes.row}>From Whom Requisition Received: </td>
+              <td className={classes.row}>From Whom Requisition Received </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
                 <textarea className={classes.textarea}></textarea>
@@ -47,7 +47,7 @@ const RtoTable = () => {
             </tr>
             <tr>
               <td className={classes.row}>2.</td>
-              <td className={classes.row}>Date of Receipt of Requisition: </td>
+              <td className={classes.row}>Date of Receipt of Requisition </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
                 <textarea className={classes.textarea}></textarea>
@@ -55,9 +55,7 @@ const RtoTable = () => {
             </tr>
             <tr>
               <td className={classes.row}>3.</td>
-              <td className={classes.row}>
-                Date, Time and Place of Inspector:{" "}
-              </td>
+              <td className={classes.row}>Date, Time and Place of Inspector</td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
                 <textarea className={classes.textarea}></textarea>
@@ -65,11 +63,11 @@ const RtoTable = () => {
             </tr>
             <tr>
               <td>4.</td>
-              <td>Particular of Vehicles:</td>
+              <td>Particular of Vehicles</td>
             </tr>
             <tr>
               <td></td>
-              <td>a.Registration Number:</td>
+              <td>a.Registration Number</td>
               <td>:</td>
               <td>
                 <textarea className={classes.textarea}></textarea>
@@ -77,7 +75,7 @@ const RtoTable = () => {
             </tr>
             <tr>
               <td></td>
-              <td>b.Class of Vehicle:</td>
+              <td>b.Class of Vehicle</td>
               <td>:</td>
               <td>
                 <textarea className={classes.textarea}></textarea>
@@ -85,7 +83,7 @@ const RtoTable = () => {
             </tr>
             <tr>
               <td></td>
-              <td>c.Make:</td>
+              <td>c.Make</td>
               <td>:</td>
               <td>
                 <textarea className={classes.textarea}></textarea>
@@ -93,7 +91,7 @@ const RtoTable = () => {
             </tr>
             <tr>
               <td></td>
-              <td>d.Colour:</td>
+              <td>d.Colour</td>
               <td>:</td>
               <td>
                 <textarea className={classes.textarea}></textarea>
@@ -112,7 +110,7 @@ const RtoTable = () => {
             </tr>
             <tr>
               <td className={classes.row}>6.</td>
-              <td className={classes.row}>Brake System: </td>
+              <td className={classes.row}>Brake System </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
                 <textarea className={classes.textarea}></textarea>
@@ -122,7 +120,7 @@ const RtoTable = () => {
               <td className={classes.row}>7.</td>
               <td className={classes.row}>
                 Observations made at the <br />
-                Spot of accident:{" "}
+                Spot of accident
               </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
@@ -147,7 +145,7 @@ const RtoTable = () => {
               <td className={classes.row}>9.</td>
               <td className={classes.row}>
                 General remarks of the Inspector of <br />
-                Motor Vehicles{" "}
+                Motor Vehicles
               </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
