@@ -17,16 +17,16 @@ const useStyles = makeStyles({
     fontSize: "15px",
     width: "480px",
     height: "30px",
-    border: "none",
+    border: "none"
   },
   textarea5: {
     fontSize: "15px",
     width: "480px",
     height: "200px",
-    border: "none",
-  },
+    border: "none"
+  }
 });
-<textarea cols="50" rows="10"></textarea>;
+
 const RtoTable = () => {
   const classes = useStyles();
 
@@ -52,23 +52,17 @@ const RtoTable = () => {
               <td className={classes.row}>Date of Receipt of Requisition: </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
               <td className={classes.row}>3.</td>
-              <td className={classes.row}>Date, Time and Place of Inspector: </td>
+              <td className={classes.row}>
+                Date, Time and Place of Inspector:{" "}
+              </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
@@ -80,11 +74,7 @@ const RtoTable = () => {
               <td className={classes.ro}>a.Registration Number:</td>
               <td className={classes.ow}>:</td>
               <td className={classes.rw}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
@@ -92,11 +82,7 @@ const RtoTable = () => {
               <td className={classes.rw}>b.Class of Vehicle:</td>
               <td className={classes.rw}>:</td>
               <td className={classes.rojw}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
@@ -104,11 +90,7 @@ const RtoTable = () => {
               <td className={classes.raow}>c.Make:</td>
               <td className={classes.raow}>:</td>
               <td className={classes.raow}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
@@ -116,11 +98,7 @@ const RtoTable = () => {
               <td className={classes.roaw}>d.Colour:</td>
               <td className={classes.roaw}>:</td>
               <td className={classes.roaw}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
@@ -132,11 +110,7 @@ const RtoTable = () => {
               </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea
-                  className={classes.textarea5}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea5}></textarea>
               </td>
             </tr>
             <tr>
@@ -144,11 +118,7 @@ const RtoTable = () => {
               <td className={classes.row}>Brake System: </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
@@ -159,11 +129,7 @@ const RtoTable = () => {
               </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="20"
-                >Not Visited</textarea>
+                <textarea className={classes.textarea}>Not Visited</textarea>
               </td>
             </tr>
             <tr>
@@ -174,20 +140,21 @@ const RtoTable = () => {
               </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea
-                  className={classes.textarea}
-                  cols="50"
-                  rows="10"
-                ></textarea>
+                <textarea className={classes.textarea}>
+                  I am of the opinion that the said accident was not due to any
+                  mechanical defects of the motor vehicle.
+                </textarea>
               </td>
             </tr>
             <tr>
               <td className={classes.row}>9.</td>
-              <td className={classes.row}>General remarks of the Inspector of <br/>
-              Motor Vehicles </td>
+              <td className={classes.row}>
+                General remarks of the Inspector of <br />
+                Motor Vehicles{" "}
+              </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea className={classes.textarea} cols="50" rows="10">
+                <textarea className={classes.textarea}>
                   I.O. is requested to verify the MDL & Documents for further
                   verification.
                 </textarea>
