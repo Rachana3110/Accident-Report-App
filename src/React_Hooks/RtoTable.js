@@ -17,13 +17,15 @@ const useStyles = makeStyles({
     fontSize: "15px",
     width: "480px",
     height: "30px",
-    border: "none"
+    border: "none",
+    fontFamily: "normal"
   },
   textarea5: {
     fontSize: "15px",
     width: "480px",
     height: "200px",
-    border: "none"
+    border: "none",
+    fontFamily: "normal"
   }
 });
 
@@ -40,11 +42,7 @@ const RtoTable = () => {
               <td className={classes.row}>From Whom Requisition Received: </td>
               <td className={classes.row}>:</td>
               <td className={classes.row}>
-                <textarea
-                  className={classes.textarea}
-                  cols="60"
-                  rows="1"
-                ></textarea>
+                <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
@@ -70,34 +68,34 @@ const RtoTable = () => {
               <td>Particular of Vehicles:</td>
             </tr>
             <tr>
-              <td className={classes.rw}></td>
-              <td className={classes.ro}>a.Registration Number:</td>
-              <td className={classes.ow}>:</td>
-              <td className={classes.rw}>
+              <td></td>
+              <td>a.Registration Number:</td>
+              <td>:</td>
+              <td>
                 <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
-              <td className={classes.rw}></td>
-              <td className={classes.rw}>b.Class of Vehicle:</td>
-              <td className={classes.rw}>:</td>
-              <td className={classes.rojw}>
+              <td></td>
+              <td>b.Class of Vehicle:</td>
+              <td>:</td>
+              <td>
                 <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
-              <td className={classes.rosw}></td>
-              <td className={classes.raow}>c.Make:</td>
-              <td className={classes.raow}>:</td>
-              <td className={classes.raow}>
+              <td></td>
+              <td>c.Make:</td>
+              <td>:</td>
+              <td>
                 <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
             <tr>
-              <td className={classes.raaow}></td>
-              <td className={classes.roaw}>d.Colour:</td>
-              <td className={classes.roaw}>:</td>
-              <td className={classes.roaw}>
+              <td></td>
+              <td>d.Colour:</td>
+              <td>:</td>
+              <td>
                 <textarea className={classes.textarea}></textarea>
               </td>
             </tr>
